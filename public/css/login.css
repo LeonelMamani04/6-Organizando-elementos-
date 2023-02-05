@@ -1,0 +1,30 @@
+@import url("/formulario.css");
+@import url("style.css");
+main form{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--gris-claro);
+    align-items: center;
+}
+.imput{
+    margin: 25px;
+    width:80%;
+    border:white;
+    border-radius: 5px;
+    padding: 6px;
+    height: 21px;
+}
+
+.boton{
+    margin: 20px;
+    width: 82%;
+    height: 33px;
+    background-color:var(--celeste);
+    color:white;
+    border: var(--celeste);
+    border-radius: 8px;
+    transition: all 500ms;    
+}
+.boton:hover{
+    background-color: #0022AA;
+}
